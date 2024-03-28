@@ -2,9 +2,6 @@ server:
   port: ${PORT:${SERVER_PORT:0}}
 
 spring:
-  zipkin:
-    base-url: https://localhost:9411/
-    enabled: true
   application:
     name: serie-service
 eureka:
